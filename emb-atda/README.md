@@ -1,4 +1,4 @@
-## Emb-Atda Evaluation
+## Embedded Domain Adaptation (emb-atda)
 Emb-atda is a "unsupervised" domain adaptation algorithm based on "[Asymmetric Tri-training for Unsupervised Domain Adaptation (atda)](https://arxiv.org/pdf/1702.08400.pdf)". Atda was modified such that it could be ported to an embedded device or a microcontroller.
 
 ## Requirements / Preparation
