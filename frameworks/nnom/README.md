@@ -15,7 +15,6 @@ Switch into the target directory, build the firmware with the converted neural n
 ```bash
 $ cd target
 $ make
-$ ../../tools/stlink/build/Release/st-flash --format ihex write ./build/nnom.hex
 ```
 Flash the firmware to the device:
 ```bash
