@@ -1,8 +1,7 @@
-## Workflow with Renesas e-Ai 
+## Workflow with [Renesas e-Ai](https://www.renesas.com/cn/en/solutions/key-technology/e-ai.html) 
 Neural net definition and calculation structure in `target/Src/network.c` can be generated with the [Renesas web compiler](http://tool-cloud2.renesas.com/) according to the [guide](http://gadget.renesas.com/en/product/e-ai/mnist_tutorial.html).
 
-However, the weights are not generated correct by the web compiler, therefore a own script is used to generate the
-Renesas weights. It is very simple because the test model consits only of 2 layers.
+However, the weights are not generated correct by the web compiler (it could be fixed with the new version, this is not tested yet), therefore a own script is used to generate the weights.
 
 ### Convert Neural Network into Source Code
 Generate the weights for the dense model with:
