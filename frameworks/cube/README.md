@@ -1,4 +1,4 @@
-## Workflow with X-CUBE-AI
+## Workflow with [X-CUBE-AI](https://www.st.com/en/embedded-software/x-cube-ai.html)
  
 ### Convert Neural Network into Source Code
  - Start STM32CubeMX
