@@ -1,0 +1,1 @@
+{'input_1': 7, 'conv2d_1': 5, 're_lu_1': 5, 'max_pooling2d_1': 5, 'flatten_1': 5, 'dense_1': 0, 'softmax_1': 7}
