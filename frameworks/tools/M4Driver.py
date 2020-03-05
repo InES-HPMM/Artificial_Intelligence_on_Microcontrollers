@@ -36,11 +36,11 @@ class M4Driver:
         # hardcoded handshake: write 's' receive 'X'
         try:
             self.ser.write(b's')
-            ret = self.ser.read(1)
-            if ret.decode("utf-8")[0] == 'X':
+            ret = self.ser.read(1).decode("utf-8")[0]
+            if ret == 'X':
                 print('Connection open!')
                 ret = self.ser.read(1)
-                return ret.decode("utf-8")[0]
+                return ret[0]
         except IndexError:
             print('Handshake failed, check if firmware is running!')
 
