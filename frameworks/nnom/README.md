@@ -1,4 +1,4 @@
-## Workflow with NNoM
+## Workflow with [NNoM](https://github.com/majianjia/nnom)
 The nnom framework is created by Jianjia Ma. Documentation and source code is available on [github](https://github.com/majianjia/nnom)
 
 ### Convert Neural Network into Source Code
