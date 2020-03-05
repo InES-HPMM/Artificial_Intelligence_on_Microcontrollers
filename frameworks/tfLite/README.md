@@ -26,7 +26,7 @@ $ ../tools/stlink/build/Release/st-flash --format ihex write ./build/TFLIT.hex
 #### Memory
 To analyse the memory footprint of the firmware you can use:
 ```bash
-$ arm-none-eabi-size arm-none-eabi-size build/TFLIT.hex 
+$ arm-none-eabi-size build/TFLIT.hex 
 ```
 The output should look like this:
 
